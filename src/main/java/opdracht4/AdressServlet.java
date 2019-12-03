@@ -25,10 +25,27 @@ public class AdressServlet extends HttpServlet {
 
         AdressBean adressBean = new AdressBean();
         adressBean.setName(req.getParameter("name"));
+        adressBean.setFirstName(req.getParameter("firstname"));
+        adressBean.setStreet(req.getParameter("street"));
+        adressBean.setEmail(req.getParameter("email"));
+        adressBean.setHouseNumber(req.getParameter("housenumber"));
+        adressBean.setPhoneNumber(req.getParameter("phonenumber"));
+        adressBean.setPostalCode(req.getParameter("postalcode"));
+        adressBean.setCountry(req.getParameter("country"));
+
 
         adressServiceImpl.registerAdress(adressBean);
 
-        req.setAttribute("adressBean", adressBean.getName());
+        req.setAttribute("adressBeanName", adressBean.getName());
+        req.setAttribute("adressBeanFirstname", adressBean.getFirstName());
+        req.setAttribute("adressBeanStreet", adressBean.getStreet());
+        req.setAttribute("adressBeanPostalcode", adressBean.getPostalCode());
+        req.setAttribute("adressBeanCountry", adressBean.getCountry());
+        req.setAttribute("adressBeanPhonenumber", adressBean.getPhoneNumber());
+        req.setAttribute("adressBeanEmail", adressBean.getEmail());
+
+
+
 
         req.getRequestDispatcher("/WEB-INF/pages/AdressResult.jsp").forward(req, resp);
     }
