@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="c8bbe058-9006-414b-b178-5bbd718ad48f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/opdracht4/SessionServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/opdracht4/SessionServlet.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +77,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575029513258</updated>
-      <workItem from="1575365776473" duration="4025000" />
+      <workItem from="1575365776473" duration="10343000" />
     </task>
     <servers />
   </component>
