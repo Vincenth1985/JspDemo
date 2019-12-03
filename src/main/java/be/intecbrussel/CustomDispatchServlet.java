@@ -10,15 +10,15 @@ import java.io.IOException;
 
 
 @WebServlet("/hello")
-public class customDispatchServlet extends HttpServlet {
+public class CustomDispatchServlet extends HttpServlet {
 
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
 
-        req.setAttribute("name","Bart");
-        req.getRequestDispatcher("WEB-INF/pages/hellojsp.jsp").forward(req,resp);
+        req.setAttribute("name","Vincent");
+        req.getRequestDispatcher("WEB-INF/pages/AdressForm.jsp").forward(req,resp);
 
 
 

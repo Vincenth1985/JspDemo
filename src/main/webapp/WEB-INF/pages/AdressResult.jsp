@@ -7,19 +7,17 @@
 
 <head>
 
-<title>Hellojsp</title>
+<title>AdressREsult</title>
 
 
 </head>
 
 <body>
 
-<h1>Hello jsp</h1>
+<h1>AdressResult</h1>
 
+Hello <h1>${adressBean}</h1>
 
 </body>
 
 </html>
-
-
-

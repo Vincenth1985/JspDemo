@@ -20,7 +20,7 @@
     </properties>
 
     <build>
-        <finalName>hellojsp</finalName>
+        <finalName>opdrachtjavabeans</finalName>
         <plugins>
             <plugin>
                 <groupId>org.codehaus.cargo</groupId>
